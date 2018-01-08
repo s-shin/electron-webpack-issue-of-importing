@@ -2,6 +2,7 @@
   "name": "electron-webpack-quick-start",
   "version": "0.0.0",
   "license": "MIT",
+  "author": "Shintaro Seki <s2pch.luck@gmail.com>",
   "scripts": {
     "dev": "electron-webpack dev",
     "compile": "electron-webpack",
@@ -9,6 +10,7 @@
     "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null"
   },
   "dependencies": {
+    "codemirror": "^5.33.0",
     "source-map-support": "^0.5.0"
   },
   "devDependencies": {
